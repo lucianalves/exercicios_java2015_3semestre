@@ -1,0 +1,18 @@
+
+public class carro extends veiculo {
+	
+	private Boolean quatro_portas;
+	private String banco_de_couro;
+	private String ar_condicionado;
+	private Boolean portas_abertas;
+	
+	public void abrir_porta(){
+		if (portas_abertas == true){
+			System.out.println("As portas já estão abertas");
+		}else{
+			
+			System.out.println("");
+		}
+	}
+
+}

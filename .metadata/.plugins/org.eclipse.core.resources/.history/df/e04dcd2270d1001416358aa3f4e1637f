@@ -1,0 +1,29 @@
+
+public class moto extends veiculo {
+	
+	private String capacete;
+	private String somente_duas_rodas;
+	private String cilindrada;
+	public String getCapacete() {
+		return capacete;
+	}
+	public void setCapacete(String capacete) {
+		this.capacete = capacete;
+	}
+	public String getSomente_duas_rodas() {
+		return somente_duas_rodas;
+	}
+	public void setSomente_duas_rodas(String somente_duas_rodas) {
+		this.somente_duas_rodas = somente_duas_rodas;
+	}
+	public String getCilindrada() {
+		return cilindrada;
+	}
+	public void setCilindrada(String cilindrada) {
+		this.cilindrada = cilindrada;
+	}
+
+	
+	
+	
+}

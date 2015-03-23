@@ -1,0 +1,17 @@
+
+public class main {
+	
+	public static void main(String[] args){
+		
+		carro carro1 = new carro();
+		carro1.setNome_do_cliente("Maria");
+		
+		carro1.setQuilometros_por_litro(9);
+		
+		carro1.verifica_se_carro_economico();
+					
+	}
+}
+		
+
+

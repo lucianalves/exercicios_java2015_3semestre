@@ -1,0 +1,11 @@
+
+public class veiculo {
+	
+	private String motor;
+	private int preco;
+	private String marca;
+	private String nome_do_cliente;
+	private int quilometros_por_litro;
+	
+	
+}

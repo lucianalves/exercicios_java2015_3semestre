@@ -1,0 +1,8 @@
+
+public class moto extends veiculo {
+	
+	private String capacete;
+	private String somente_duas_rodas;
+	private String cilindrada;
+
+}

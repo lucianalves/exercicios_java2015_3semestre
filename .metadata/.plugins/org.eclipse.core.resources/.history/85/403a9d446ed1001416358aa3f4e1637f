@@ -1,0 +1,22 @@
+
+public class veiculo {
+	
+	private String motor;
+	private double preco;
+	private String marca;
+	private String nome_do_cliente;
+	private int quilometros_por_litro;
+	
+	public void verifica_se_carro_economico(){
+		
+		if (quilometros_por_litro > 10){
+			System.out.println("seu carro é econômico");
+			
+		}else{
+		
+			System.out.println(" seu carro não é economico");
+		}
+			
+	}
+}
+
