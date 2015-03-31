@@ -6,6 +6,7 @@ public class veiculo {
 	private String marca;
 	private String nome_do_cliente;
 	private int quilometros_por_litro;
+	private double potencia_veiculo;
 	
 	
 	
@@ -77,8 +78,24 @@ public class veiculo {
 		}else{
 		
 			System.out.println(" seu veiculo não é economico");
+			}
+	}
+
+	
+		public void verificar_Potencia_veiculo(){
+			
+		if(this.potencia_veiculo>200){
+		
+				
+		System.out.println("O seu veiculo é potente");
+		
+		}else{
+				
+				System.out.println("O seu veiculo não é potente");
 		}
+			
 			
 	}
 }
+
 

@@ -1,0 +1,15 @@
+
+public class main {
+	
+	
+	public static void main(String args[]){
+		
+		aluno aluno1 = new aluno();
+		
+		aluno1.setNome("josé");
+		aluno1.setSerie("ensinofundamental");
+		aluno1.setNum_de_matricula(123465);
+		
+	}
+
+}

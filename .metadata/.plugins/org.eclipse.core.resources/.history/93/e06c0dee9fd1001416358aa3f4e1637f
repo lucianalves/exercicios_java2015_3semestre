@@ -1,0 +1,71 @@
+
+public class funcionario {
+	
+	private String nome;
+	private String departamnto_onde_trabalha;
+	private double salario;
+	private String data_entrada;
+	private String rg;
+	private boolean fucionario_ou_ex_funcionario;
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getDepartamnto_onde_trabalha() {
+		return departamnto_onde_trabalha;
+	}
+	public void setDepartamnto_onde_trabalha(String departamnto_onde_trabalha) {
+		this.departamnto_onde_trabalha = departamnto_onde_trabalha;
+	}
+	public double getSalario() {
+		return salario;
+	}
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	public String getData_entrada() {
+		return data_entrada;
+	}
+	public void setData_entrada(String data_entrada) {
+		this.data_entrada = data_entrada;
+	}
+	public String getRg() {
+		return rg;
+	}
+	public void setRg(String rg) {
+		this.rg = rg;
+	}
+	public boolean isFucionario_ou_ex_funcionario() {
+		return fucionario_ou_ex_funcionario;
+	}
+	public void setFucionario_ou_ex_funcionario(boolean fucionario_ou_ex_funcionario) {
+		this.fucionario_ou_ex_funcionario = fucionario_ou_ex_funcionario;
+	}
+	
+	
+	public void verifica_bonificacao(double valor){
+		double salario_atual= this.getSalario();
+		double novo_salario = salario_atual + valor;
+		
+		this.setSalario(novo_salario);
+		
+	}
+		
+		public void verifica_demicao(){
+			if (fucionario_ou_ex_funcionario == true){
+				System.out.println("o funcionario não trabalha mais na empresa");
+				
+			}else{ 
+				
+				System.out.println("o funcionario não foi demitido");
+				
+			
+		}
+		
+		
+	}
+	
+
+}

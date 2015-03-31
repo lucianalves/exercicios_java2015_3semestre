@@ -1,0 +1,51 @@
+public class aluno {
+
+	private String nome;
+	private String serie;
+	private int num_de_matricula;
+	private materia materias[] = new materia[9];
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getSerie() {
+		return serie;
+	}
+
+	public void setSerie(String serie) {
+		this.serie = serie;
+	}
+
+	public int getNum_de_matricula() {
+		return num_de_matricula;
+	}
+
+	public void setNum_de_matricula(int num_de_matricula) {
+		this.num_de_matricula = num_de_matricula;
+	}
+
+	public materia[] getMaterias() {
+		return materias;
+	}
+
+	public void setMaterias(materia[] materias) {
+		this.materias = materias;
+	}
+	
+	public void definir_materias(){
+		if(this.getSerie().equals("ensiofundamental")){
+			//definir materias do ensino fundamental
+		}else{
+			
+		}
+	
+		
+	}
+	
+
+}

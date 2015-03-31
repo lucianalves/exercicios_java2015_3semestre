@@ -1,0 +1,38 @@
+
+public class materia {
+	
+	private String nome;
+	private int falta;
+	private double notas[] = new double[3];
+	private double media;
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getFalta() {
+		return falta;
+	}
+	public void setFalta(int falta) {
+		this.falta = falta;
+	}
+	public double[] getNotas() {
+		return notas;
+	}
+	public void setNotas(double[] notas) {
+		this.notas = notas;
+	}
+	public double getMedia() {
+		return media;
+	}
+	public void setMedia(double media) {
+		this.media = media;
+	}
+	
+	
+	
+	
+
+
+}

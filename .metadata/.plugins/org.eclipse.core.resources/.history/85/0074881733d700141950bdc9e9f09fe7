@@ -1,0 +1,9 @@
+
+public class materia {
+	
+	
+	private String nome;
+	private int faltas;
+	private double notas[] = new double[5] ;
+	
+}

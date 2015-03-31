@@ -1,0 +1,10 @@
+
+public class  segundo_grau extends aluno {
+	
+	
+	private String física;
+	private String biologia;
+	private String química;
+	
+
+}

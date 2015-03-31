@@ -1,0 +1,21 @@
+
+public class main {
+ 
+	public static void main(String args[]){
+		
+		funcionario funcionario1 = new funcionario();
+		funcionario1.setNome("Ana");
+		
+		funcionario1.setSalario(1500);
+		System.out.println("salario atual"+ funcionario1.getSalario());
+	
+		funcionario1.bonifica(50);
+		
+		System.out.println("o novo salario é "+ funcionario1.getSalario());
+		
+		funcionario1.setDepartamnto_onde_trabalha("administrativo");
+		funcionario1.verifica_demicao();
+	}
+	
+	
+}

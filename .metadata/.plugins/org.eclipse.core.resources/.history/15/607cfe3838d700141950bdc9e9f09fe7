@@ -1,0 +1,11 @@
+public abstract class aluno {
+
+	private String nome;
+	private String serie;
+	private int num_de_matricula;
+	
+	private materia portugues = new materia("portugues");
+	private materia matematica = new materia("matemática");
+	private materia geografia = new materia("geografia");
+	
+}

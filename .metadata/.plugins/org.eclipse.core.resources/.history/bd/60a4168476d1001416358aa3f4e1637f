@@ -1,0 +1,12 @@
+
+public class materia {
+	
+	private String nome;
+	private int falta;
+	private double nota;
+	private double media;
+	
+	
+
+
+}

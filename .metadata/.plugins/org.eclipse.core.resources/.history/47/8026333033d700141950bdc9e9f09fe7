@@ -1,0 +1,11 @@
+public abstract class aluno {
+
+	private String nome;
+	private String serie;
+	private int num_de_matricula;
+	
+	private materia portugues;
+	private materia matematica;
+	private materia geografia;
+	
+}

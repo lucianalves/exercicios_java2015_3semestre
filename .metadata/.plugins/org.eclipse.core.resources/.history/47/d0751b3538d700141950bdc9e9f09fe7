@@ -1,0 +1,7 @@
+
+public class fundamental extends aluno {
+	
+	private materia educacao_artitisca = new materia("educação_artitisca");
+	private materia ciencias = new materia("ciencias");
+
+}

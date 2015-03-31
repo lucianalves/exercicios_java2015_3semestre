@@ -1,0 +1,26 @@
+
+public class main {
+	
+	
+	public static void main(String args[]){
+		
+		aluno aluno1 = new aluno();
+		
+		aluno1.setNome("josé");
+		aluno1.setSerie("ensinofundamental");
+		aluno1.setNum_de_matricula(123465);
+		aluno1.definir_materias();
+		
+		double notas[] = new double [3];
+		notas[0] = 6D;
+		notas[1] = 5D;
+		notas[2] = 8D;
+		
+		
+		//aluno1.getMaterias()[0].setNotas(notas);
+		
+		System.out.println(aluno1.getMaterias()[0].getMedia());
+		
+	}
+
+}

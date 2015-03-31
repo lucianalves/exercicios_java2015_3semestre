@@ -1,0 +1,14 @@
+
+public class main {
+ 
+	public static void main(String args[]){
+		
+		funcionario funcionario1 = new funcionario();
+		funcionario1.setNome("Ana");
+		
+		funcionario1.setDepartamnto_onde_trabalha("administrativo");
+		funcionario1.verifica_demicao();
+	}
+	
+	
+}

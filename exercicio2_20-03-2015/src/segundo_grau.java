@@ -1,0 +1,76 @@
+
+public class  segundo_grau extends aluno {
+	
+	
+	private materia física;
+	private materia biologia;
+	private materia química;
+	private materia filosofia;
+	private materia sociologia;
+
+	
+	
+	public materia getFísica() {
+		return física;
+	}
+
+
+
+	public void setFísica(materia física) {
+		this.física = física;
+	}
+
+
+
+	public materia getBiologia() {
+		return biologia;
+	}
+
+
+
+	public void setBiologia(materia biologia) {
+		this.biologia = biologia;
+	}
+
+
+
+	public materia getQuímica() {
+		return química;
+	}
+
+
+
+	public void setQuímica(materia química) {
+		this.química = química;
+	}
+
+
+
+	public materia getFilosofia() {
+		return filosofia;
+	}
+
+
+
+	public void setFilosofia(materia filosofia) {
+		this.filosofia = filosofia;
+	}
+
+
+
+	public materia getSociologia() {
+		return sociologia;
+	}
+
+
+
+	public void setSociologia(materia sociologia) {
+		this.sociologia = sociologia;
+	}
+
+
+	@Override
+	public void estudar(){
+		System.out.println("tenho que estudar para a prova de química");
+	}
+}

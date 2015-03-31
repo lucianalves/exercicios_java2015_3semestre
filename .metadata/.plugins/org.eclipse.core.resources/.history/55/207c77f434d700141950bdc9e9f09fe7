@@ -1,0 +1,10 @@
+
+public class main {
+	
+	public static void main(String args[]){
+		
+		fundamental aluno1 = new fundamental();
+			System.out.println(aluno1.getPortugues().getNome());
+	
+	}
+}

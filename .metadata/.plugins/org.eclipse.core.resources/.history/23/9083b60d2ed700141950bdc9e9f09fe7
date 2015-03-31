@@ -1,0 +1,7 @@
+public class aluno {
+
+	private String nome;
+	private String serie;
+	private int num_de_matricula;
+	
+}

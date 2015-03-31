@@ -1,0 +1,11 @@
+
+public class funcionario {
+	
+	private String nome;
+	private String departamnto_onde_trabalha;
+	private double salario;
+	private String data_entrada;
+	private String rg;
+	private boolean fucionario_ou_ex_funcionario;
+
+}
